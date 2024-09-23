@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "react": "^18",
@@ -23,4 +24,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.12"
   }
+ 
 }
+
